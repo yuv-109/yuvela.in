@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuvela.in | Coding Services</title>
+    <style>
+        /* Modern CSS Reset & Mobile-First Design */
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: #f4f4f9; }
+        header { background: #333; color: white; padding: 1rem; text-align: center; }
+        
+        /* The "Responsive Grid" we mentioned to the HR */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 20px;
+            flex: 1 1 300px; /* This makes it responsive */
+        }
+        @media (max-width: 600px) {
+            .card { flex: 1 1 100%; }
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Yuvela.in</h1></header>
+    <div class="container">
+        <div class="card">
+            <h3>Web Development</h3>
+            <p>Providing high-quality coding services for small businesses.</p>
+        </div>
+    </div>
+</body>
+</html>
